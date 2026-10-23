@@ -219,7 +219,6 @@ export function ControlsPreview() {
           comic="hint-policy-private" label={t("host.invite.credentialRequired")} /> : null}
         <div className="cp-tools">
           <InviteQrCode link={roomLink} />
-          <InviteQrCode link={null} disabled />
         </div>
         <p>{en ? "The website's architecture picker uses the same sliding style with native radio buttons. Arrow keys change the choice."
           : "官网的架构选择也复用滑动样式，使用原生单选项；聚焦后可用方向键切换。"}</p>

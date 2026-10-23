@@ -24,6 +24,7 @@ describe("invitation QR code", () => {
     expect(html).toContain('role="dialog"');
     expect(html).toContain(locales.zh.copy["host.invite.showQrcode"]);
     expect(html).toContain(locales.zh.copy["host.invite.qrcodeHint"]);
+    expect(html).toContain(locales.zh.copy["host.invite.downloadQrcode"]);
   });
 
   it("encodes the link, so a different invitation produces a different code", () => {

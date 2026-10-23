@@ -449,7 +449,7 @@ type checking rather than silently render a warning triangle.
 | Start and choose a source / 分享与选源 | `cast`, `share`, `switchSource` | Start sharing, capture a screen, replace the current capture source respectively. A captured window keeps window chrome or a display stand. |
 | Capture source / 采集来源 | `window`, `display` | An application window or a whole display; these nouns remain distinct from the source-switch action. |
 | Invitation URL / 邀请链接 | `link`, `InviteLink`, `linkOff` | A URL and its disabled/revoked form. Keep the chain when copying or rejecting it. Copying is local; a send-to-chat scene is a separate action. |
-| Scannable invitation / 扫码邀请 | `qr` | A locally built code carrying the same invitation URL and credential state as Copy. Showing a code is not proof of admission. |
+| Scannable invitation / 扫码邀请 | `qr` | A locally built code carrying the same invitation URL and credential state as Copy, downloadable as a print-sized image. Showing a code is not proof of admission. |
 | Credential / 凭证 | `key`, password dots | Site passphrase or room password, identified by the field label. Room-code admission with a password shows both fields. |
 | Restriction / 受限 | `lock` | Restricted entry, concealed password or a setting fixed by availability; show the affected object. A lock never promises anonymity or secure media. |
 | Site and public entry / 站点与公开入口 | `globe` | Browser/Site entry or code-based public entry. It does not claim internet reachability. |

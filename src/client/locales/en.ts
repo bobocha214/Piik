@@ -501,6 +501,7 @@ export const en: Record<CopyKey, string> = {
   "host.invite.qrcode": "QR code",
   "host.invite.showQrcode": "Show invite QR code",
   "host.invite.qrcodeHint": "Scan with a phone to join the room",
+  "host.invite.downloadQrcode": "Download QR code",
 
   "host.policy": "Admission",
   "host.policy.open": "Open",

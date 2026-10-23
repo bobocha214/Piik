@@ -501,6 +501,7 @@ export const zh = {
   "host.invite.qrcode": "二维码",
   "host.invite.showQrcode": "显示邀请二维码",
   "host.invite.qrcodeHint": "用手机扫码加入房间",
+  "host.invite.downloadQrcode": "下载二维码",
 
   "host.policy": "准入方式",
   "host.policy.open": "公开",
