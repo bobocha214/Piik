@@ -498,6 +498,9 @@ export const en: Record<CopyKey, string> = {
   "host.invite.credentialRequired": "This room is invite-only; turn on Skip passwords",
   "host.invite.emptyPassword": "No invite link; room code plus password still works",
   "host.invite.emptyPrivate": "No invite link; rotate one before inviting",
+  "host.invite.qrcode": "QR code",
+  "host.invite.showQrcode": "Show invite QR code",
+  "host.invite.qrcodeHint": "Scan with a phone to join the room",
 
   "host.policy": "Admission",
   "host.policy.open": "Open",

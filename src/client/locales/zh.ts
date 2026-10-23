@@ -498,6 +498,9 @@ export const zh = {
   "host.invite.credentialRequired": "当前仅限邀请，请开启免密邀请",
   "host.invite.emptyPassword": "暂无邀请链接，仍可凭房间号和密码加入",
   "host.invite.emptyPrivate": "暂无邀请链接，请先更新链接再邀请他人",
+  "host.invite.qrcode": "二维码",
+  "host.invite.showQrcode": "显示邀请二维码",
+  "host.invite.qrcodeHint": "用手机扫码加入房间",
 
   "host.policy": "准入方式",
   "host.policy.open": "公开",

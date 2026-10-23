@@ -16,6 +16,7 @@ import { REACTION_IDS, type ReactionId } from "../../shared/room-interactions";
 import { PlaybackControls } from "../components/living/PlaybackControls";
 import { SharingSettings } from "../components/living/SharingSettings";
 import { HostShareControls } from "../components/living/HostShareControls";
+import { InviteQrCode } from "../components/living/InviteQrCode";
 import { HostRemoteControl } from "../components/living/HostRemoteControl";
 import type { RemoteControlMode } from "../remote-control/protocol";
 import { LauncherForm, type AppMode } from "../components/living/LauncherForm";
@@ -216,6 +217,10 @@ export function ControlsPreview() {
         </div>
         {!includeCredential && policy === "private" && !roomPassword ? <Pill icon="lock" tone="warn"
           comic="hint-policy-private" label={t("host.invite.credentialRequired")} /> : null}
+        <div className="cp-tools">
+          <InviteQrCode link={roomLink} />
+          <InviteQrCode link={null} disabled />
+        </div>
         <p>{en ? "The website's architecture picker uses the same sliding style with native radio buttons. Arrow keys change the choice."
           : "官网的架构选择也复用滑动样式，使用原生单选项；聚焦后可用方向键切换。"}</p>
         <fieldset className="lr-toggle">

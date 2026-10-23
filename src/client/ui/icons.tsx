@@ -62,6 +62,7 @@ const PATHS = {
   moon: { body: (<><path pathLength={1} d="M20.2 14.2A8.5 8.5 0 1 1 9.8 3.8a7 7 0 1 0 10.4 10.4Z"/></>) },
   pencil: { body: (<><path pathLength={1} d="M17 3a2.83 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3Z"/></>) },
   link: { body: (<><path pathLength={1} d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path pathLength={1} d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></>) },
+  qr: { body: (<><rect pathLength={1} x="3" y="3" width="7" height="7" rx="1.5"/><rect pathLength={1} x="14" y="3" width="7" height="7" rx="1.5"/><rect pathLength={1} x="3" y="14" width="7" height="7" rx="1.5"/><path pathLength={1} d="M14 14h3v3h-3zM19 14h2m-2 4h2v3m-7-1v2h3"/></>) },
   linkOff: { body: (<><path pathLength={1} d="M10 13a5 5 0 0 0 7.54.54l1.1-1.1M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/><path pathLength={1} d="m3 3 18 18"/></>) },
   arrowRight: { body: (<><path pathLength={1} d="M4 12h16m-6.5-6.5L20 12l-6.5 6.5"/></>) },
   arrowLeft: { body: (<><path pathLength={1} d="M20 12H4m6.5-6.5L4 12l6.5 6.5"/></>) },

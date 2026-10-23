@@ -874,6 +874,12 @@ body.lr-theater-open .lr-top { visibility: hidden; }
   text-align: left;
   user-select: text;
 }
+/* Invitation QR: a locally built copy of the same link the Copy action yields. */
+.lr-qr { display: inline-flex; flex: none; }
+.lr-qr-popover { width: auto; padding: 12px; }
+.lr-qr-popover:is(:popover-open, .\:popover-open) { display: grid; justify-items: center; gap: 8px; }
+.lr-qr-popover svg { display: block; border-radius: 10px; }
+.lr-qr-popover p { margin: 0; color: var(--muted); font-size: 12px; }
 /* Touch only: the compact mono URL would auto-zoom iOS on focus under 16px,
    and the zoom never returns. Pointer devices keep the dense line. */
 /* LCD room code */

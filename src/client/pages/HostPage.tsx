@@ -26,6 +26,7 @@ import { WelcomeLine } from "../components/living/WelcomeLine";
 import type { CouchEntry } from "../components/living/Couch";
 import { SharingSettings } from "../components/living/SharingSettings";
 import { HostShareControls } from "../components/living/HostShareControls";
+import { InviteQrCode } from "../components/living/InviteQrCode";
 import { LiveAudioExclusion } from "../components/living/AudioExclusionSelect";
 import { RoomInteractions } from "../components/living/RoomInteractions";
 import { RoomChatOverlay } from "../components/living/RoomChatOverlay";
@@ -4140,6 +4141,10 @@ export function HostPage({
                   hintMotion={copied ? "still" : undefined}
                   disabled={!roomLink || roomMutating || roomLinkBlocked}
                   onClick={() => void copyRoomLink()}
+                />
+                <InviteQrCode
+                  link={roomLink ?? null}
+                  disabled={roomMutating || roomLinkBlocked}
                 />
                 <Btn
                   icon="refresh"
